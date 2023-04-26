@@ -3,7 +3,6 @@ const bodyParser = require("body-parser");
 require("dotenv").config();
 require("fetch");
 
-const { PineconeClient } = require("@pinecone-database/pinecone");
 const openai = require("openai");
 
 const app = express();
